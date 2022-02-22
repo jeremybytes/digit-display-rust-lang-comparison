@@ -66,7 +66,6 @@ pub fn run(config: configuration::Config) {
     }
 
     print_summary(&config.classifier, config.offset, config.count, elapsed_time, total_errors);
-    println!("DONE!");
 }
 
 pub fn print_summary(
